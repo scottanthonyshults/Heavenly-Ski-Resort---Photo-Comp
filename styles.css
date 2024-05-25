@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("photos/heavenly.jpg");
+  background-size: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+#description {
+  text-align: center;
+}
+
+#description {
+  font-size: 1.2em;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type=file] {
+  width: 100%;
+  padding: 12px;
+  padding-top: 8px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  padding-left: 0px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: none;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
